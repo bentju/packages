@@ -1,0 +1,96 @@
+#
+#	Build matrixssl on windows
+#
+
+# echo "  devenv matrixSsl.sln /rebuild Release /out build.log"
+# cd src ; devenv matrixSsl.sln /rebuild Release /out build.log ; cd ..
+
+all:
+	rm -f libmatrixssl.dll libmatrixssl.lib
+	mkdir -p Release ; \
+	cl /Ox /Ob1 /Os /Oy /D "WIN32" /D "_WIN32_WINNT=0x0510" /D "_WINDLL" /GF /FD /MD /Fo"Release/" /Fd"Release/vc70.pdb" /c /TC \
+	".\os\win\win.c" \
+	".\pki\asn1.c" \
+	".\pki\rsaPki.c" \
+	".\pki\x509.c" \
+	".\crypto\peersec\arc4.c" \
+	".\crypto\peersec\base64.c" \
+	".\crypto\peersec\des3.c" \
+	".\crypto\peersec\md2.c" \
+	".\crypto\peersec\md5.c" \
+	".\crypto\peersec\mpi.c" \
+	".\crypto\peersec\rsa.c" \
+	".\crypto\peersec\sha1.c" \
+	".\sslv3.c" \
+	".\sslEncode.c" \
+	".\sslDecode.c" \
+	".\matrixSsl.c" \
+	".\cipherSuite.c"
+	path=`which cl` ; \
+	path=`cygpath -w "$$path"` ; \
+	path=`dirname "$$path"`/link ; \
+	"$$path" /OUT:"Release/libmatrixssl.dll" /NOLOGO /dll /FILEALIGN:512  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib msvcrt.lib \
+	".\Release\cipherSuite.obj" \
+	".\Release\matrixSsl.obj" \
+	".\Release\sslDecode.obj" \
+	".\Release\sslEncode.obj" \
+	".\Release\sslv3.obj" \
+	".\Release\arc4.obj" \
+	".\Release\asn1.obj" \
+	".\Release\rsaPki.obj" \
+	".\Release\x509.obj" \
+	".\Release\base64.obj" \
+	".\Release\des3.obj" \
+	".\Release\md2.obj" \
+	".\Release\md5.obj" \
+	".\Release\mpi.obj" \
+	".\Release\rsa.obj" \
+	".\Release\sha1.obj" \
+	".\Release\win.obj"
+
+#	mt /nologo /manifest Release\\libmatrixssl.dll.manifest '/outputresource:Release\\libmatrixssl.dll;#2'
+
+debug:
+	rm -f libmatrixssl.dll libmatrixssl.lib
+	mkdir -p Release ; \
+	cl /Zi /Od /D "WIN32" /D "_WIN32_WINNT=0x0510" /D "_WINDLL" /GF /FD /MD /Fo"Release/" /Fd"Release/vc70.pdb" /c /TC \
+	".\os\win\win.c" \
+	".\pki\asn1.c" \
+	".\pki\rsaPki.c" \
+	".\pki\x509.c" \
+	".\crypto\peersec\arc4.c" \
+	".\crypto\peersec\base64.c" \
+	".\crypto\peersec\des3.c" \
+	".\crypto\peersec\md2.c" \
+	".\crypto\peersec\md5.c" \
+	".\crypto\peersec\mpi.c" \
+	".\crypto\peersec\rsa.c" \
+	".\crypto\peersec\sha1.c" \
+	".\sslv3.c" \
+	".\sslEncode.c" \
+	".\sslDecode.c" \
+	".\matrixSsl.c" \
+	".\cipherSuite.c"
+	path=`which cl` ; \
+	path=`cygpath -w "$$path"` ; \
+	path=`dirname "$$path"`/link ; \
+	"$$path" /debug /OUT:"Release/libmatrixssl.dll" /NOLOGO /dll /FILEALIGN:512  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib msvcrt.lib \
+	".\Release\cipherSuite.obj" \
+	".\Release\matrixSsl.obj" \
+	".\Release\sslDecode.obj" \
+	".\Release\sslEncode.obj" \
+	".\Release\sslv3.obj" \
+	".\Release\arc4.obj" \
+	".\Release\asn1.obj" \
+	".\Release\rsaPki.obj" \
+	".\Release\x509.obj" \
+	".\Release\base64.obj" \
+	".\Release\des3.obj" \
+	".\Release\md2.obj" \
+	".\Release\md5.obj" \
+	".\Release\mpi.obj" \
+	".\Release\rsa.obj" \
+	".\Release\sha1.obj" \
+	".\Release\win.obj"
+
+#	mt /nologo /manifest Release\\libmatrixssl.dll.manifest '/outputresource:Release\\libmatrixssl.dll;#2'

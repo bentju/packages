@@ -1,0 +1,1068 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:2151: checking for Cygwin environment
+configure:2184: checking for mingw32 environment
+configure:2215: checking for egrep
+configure:2230: checking for a sed that does not truncate output
+configure:2380: checking host system type
+configure:2401: checking target system type
+configure:2524: checking for gcc
+configure:2637: checking whether the C compiler (gcc -arch x86_64 -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv) works
+configure:2653: gcc -o conftest -arch x86_64  -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:2679: checking whether the C compiler (gcc -arch x86_64 -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv) is a cross-compiler
+configure:2684: checking whether we are using GNU C
+configure:2712: checking whether gcc accepts -g
+configure:2744: checking how to run the C preprocessor
+configure:2826: checking for icc
+configure:2850: checking for suncc
+configure:2875: checking whether gcc and cc understand -c and -o together
+configure:2926: checking how to run the C preprocessor
+configure:3006: checking for AIX
+configure:3030: checking whether ln -s works
+configure:3055: checking for system library directory
+configure:3081: checking whether to enable runpaths
+configure:3105: checking if compiler supports -R
+configure:3138: checking if compiler supports -Wl,-rpath,
+configure:3184: checking for gawk
+configure:3244: checking for bison
+configure:3284: checking for bison version
+configure:3322: checking for re2c
+configure:3389: checking whether to enable computed goto gcc extension with re2c
+configure:3501: checking whether gcc supports -no-cpp-precomp
+configure:3702: checking whether to force non-PIC code in shared modules
+configure:3732: checking whether /dev/urandom exists
+configure:3811: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:3831: checking for pthreads_cflags
+configure:3901: checking for pthreads_lib
+configure:4075: checking for AOLserver support
+configure:4332: checking for Apache 1.x module support via DSO through APXS
+configure:4655: checking for Apache 1.x module support
+configure:5488: checking whether to enable Apache charset compatibility option
+configure:5661: checking for Apache 2.0 filter-module support via DSO through APXS
+configure:6509: checking for Apache 2.0 handler-module support via DSO through APXS
+configure:7358: checking for Apache 1.x (hooks) module support via DSO through APXS
+configure:7681: checking for Apache 1.x (hooks) module support
+configure:8514: checking whether to enable Apache charset compatibility option
+configure:8688: checking for Caudium support
+configure:9039: checking for CLI build
+configure:9089: checking for Continuity support
+configure:9366: checking for embedded SAPI library support
+configure:9583: checking for Zeus ISAPI support
+configure:9829: checking for LiteSpeed support
+configure:10083: checking for Milter support
+configure:10367: checking for NSAPI support
+configure:10719: checking for PHTTPD support
+configure:10965: checking for Pi3Web support
+configure:11332: checking whether Roxen module is build using ZTS
+configure:11356: checking for Roxen/Pike support
+configure:11634: checking for thttpd
+configure:11895: checking for TUX
+configure:12141: checking for webjames
+configure:12675: checking for chosen SAPI module
+configure:12732: checking for sendmail
+configure:12771: checking whether system uses EBCDIC
+configure:12818: checking whether byte ordering is bigendian
+configure:12870: checking whether writing to stdout works
+configure:12974: checking for socket
+configure:13002: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:13231: checking for socketpair
+configure:13259: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:13488: checking for htonl
+configure:13516: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:13745: checking for gethostname
+configure:13773: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:14002: checking for gethostbyaddr
+configure:14030: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:14259: checking for yp_get_default_domain
+configure:14287: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:14517: checking for dlopen
+configure:14545: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c  1>&5
+configure:14775: checking for sin in -lm
+configure:14828: checking for inet_aton
+configure:14856: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lm  1>&5
+configure:15225: checking for nanosleep
+configure:15253: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lm  1>&5
+configure:15479: checking for ANSI C header files
+configure:15587: checking for dirent.h that defines DIR
+configure:15625: checking for opendir in -ldir
+configure:15768: checking for inttypes.h
+configure:15768: checking for stdint.h
+configure:15768: checking for dirent.h
+configure:15768: checking for ApplicationServices/ApplicationServices.h
+configure:15768: checking for sys/param.h
+configure:15768: checking for sys/types.h
+configure:15768: checking for sys/time.h
+configure:15768: checking for netinet/in.h
+configure:15768: checking for alloca.h
+configure:15768: checking for arpa/inet.h
+configure:15768: checking for arpa/nameser_compat.h
+configure:15768: checking for arpa/nameser.h
+configure:15768: checking for assert.h
+configure:15768: checking for crypt.h
+configure:15768: checking for dns.h
+configure:15768: checking for fcntl.h
+configure:15768: checking for grp.h
+configure:15768: checking for ieeefp.h
+configure:15768: checking for langinfo.h
+configure:15768: checking for limits.h
+configure:15768: checking for locale.h
+configure:15768: checking for monetary.h
+configure:15768: checking for netdb.h
+configure:15768: checking for pwd.h
+configure:15768: checking for resolv.h
+configure:15768: checking for signal.h
+configure:15768: checking for stdarg.h
+configure:15768: checking for stdlib.h
+configure:15768: checking for string.h
+configure:15768: checking for syslog.h
+configure:15768: checking for sysexits.h
+configure:15768: checking for sys/ioctl.h
+configure:15768: checking for sys/file.h
+configure:15768: checking for sys/mman.h
+configure:15768: checking for sys/mount.h
+configure:15768: checking for sys/poll.h
+configure:15768: checking for sys/resource.h
+configure:15768: checking for sys/select.h
+configure:15768: checking for sys/socket.h
+configure:15768: checking for sys/stat.h
+configure:15768: checking for sys/statfs.h
+configure:15768: checking for sys/statvfs.h
+configure:15768: checking for sys/vfs.h
+configure:15768: checking for sys/sysexits.h
+configure:15768: checking for sys/varargs.h
+configure:15768: checking for sys/wait.h
+configure:15768: checking for sys/loadavg.h
+configure:15768: checking for termios.h
+configure:15768: checking for unistd.h
+configure:15768: checking for unix.h
+configure:15768: checking for utime.h
+configure:15768: checking for sys/utsname.h
+configure:15768: checking for sys/ipc.h
+configure:15768: checking for dlfcn.h
+configure:15768: checking for assert.h
+configure:15807: checking for fopencookie
+configure:15982: checking for broken getcwd
+configure:15997: checking for broken libc stdio
+configure:16058: gcc -o conftest -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lm  1>&5
+configure: In function 'main':
+configure:16042: warning: incompatible implicit declaration of built-in function 'exit'
+configure:16086: checking whether struct tm is in sys/time.h or time.h
+configure:16120: checking for tm_zone in struct tm
+configure:16192: checking for missing declarations of reentrant functions
+configure:16201: gcc -c -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:16226: gcc -c -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:16251: gcc -c -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:16276: gcc -c -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:16301: gcc -c -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:16322: checking for fclose declaration
+configure:16331: gcc -c -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:16357: checking for tm_gmtoff in struct tm
+configure:16393: checking for struct flock
+configure:16435: checking for socklen_t
+configure:16478: checking size of size_t
+configure:16517: checking size of long long
+configure:16556: checking size of long long int
+configure:16595: checking size of long
+configure:16634: checking size of int
+configure:16675: checking size of intmax_t
+configure:16755: checking size of ssize_t
+configure:16835: checking size of ptrdiff_t
+configure:16915: checking for st_blksize in struct stat
+configure:16950: checking for st_blocks in struct stat
+configure:16990: checking for st_rdev in struct stat
+configure:17025: checking for size_t
+configure:17058: checking for uid_t in sys/types.h
+configure:17094: checking for struct sockaddr_storage
+configure:17128: checking for field sa_len in struct sockaddr
+configure:17165: checking for IPv6 support
+configure:17195: checking for vprintf
+configure:17383: checking for alphasort
+configure:17383: checking for asctime_r
+configure:17383: checking for chroot
+configure:17383: checking for ctime_r
+configure:17383: checking for cuserid
+configure:17383: checking for crypt
+configure:17383: checking for flock
+configure:17383: checking for ftok
+configure:17383: checking for funopen
+configure:17383: checking for gai_strerror
+configure:17383: checking for gcvt
+configure:17383: checking for getloadavg
+configure:17383: checking for getlogin
+configure:17383: checking for getprotobyname
+configure:17383: checking for getprotobynumber
+configure:17383: checking for getservbyname
+configure:17383: checking for getservbyport
+configure:17383: checking for gethostname
+configure:17383: checking for getrusage
+configure:17383: checking for gettimeofday
+configure:17383: checking for gmtime_r
+configure:17383: checking for getpwnam_r
+configure:17383: checking for getgrnam_r
+configure:17383: checking for getpwuid_r
+configure:17383: checking for grantpt
+configure:17383: checking for inet_ntoa
+configure:17383: checking for inet_ntop
+configure:17383: checking for inet_pton
+configure:17383: checking for isascii
+configure:17383: checking for link
+configure:17383: checking for localtime_r
+configure:17383: checking for lockf
+configure:17383: checking for lchown
+configure:17383: checking for lrand48
+configure:17383: checking for memcpy
+configure:17383: checking for memmove
+configure:17383: checking for mkstemp
+configure:17383: checking for mmap
+configure:17383: checking for nl_langinfo
+configure:17383: checking for perror
+configure:17383: checking for poll
+configure:17383: checking for ptsname
+configure:17383: checking for putenv
+configure:17383: checking for realpath
+configure:17383: checking for random
+configure:17383: checking for rand_r
+configure:17383: checking for scandir
+configure:17383: checking for setitimer
+configure:17383: checking for setlocale
+configure:17383: checking for localeconv
+configure:17383: checking for setenv
+configure:17383: checking for setpgid
+configure:17383: checking for setsockopt
+configure:17383: checking for setvbuf
+configure:17383: checking for shutdown
+configure:17383: checking for sin
+configure:17383: checking for snprintf
+configure:17383: checking for srand48
+configure:17383: checking for srandom
+configure:17383: checking for statfs
+configure:17383: checking for statvfs
+configure:17383: checking for std_syslog
+configure:17383: checking for strcasecmp
+configure:17383: checking for strcoll
+configure:17383: checking for strdup
+configure:17383: checking for strerror
+configure:17383: checking for strftime
+configure:17383: checking for strnlen
+configure:17383: checking for strptime
+configure:17383: checking for strstr
+configure:17383: checking for strtok_r
+configure:17383: checking for symlink
+configure:17383: checking for tempnam
+configure:17383: checking for tzset
+configure:17383: checking for unlockpt
+configure:17383: checking for unsetenv
+configure:17383: checking for usleep
+configure:17383: checking for utime
+configure:17383: checking for vsnprintf
+configure:17383: checking for vasprintf
+configure:17383: checking for asprintf
+configure:17437: checking for getaddrinfo
+configure:17527: checking for strlcat
+configure:17527: checking for strlcpy
+configure:17527: checking for getopt
+configure:17582: checking whether utime accepts a null argument
+configure:17629: checking for working alloca.h
+configure:17662: checking for alloca
+configure:17862: checking for declared timezone
+configure:17909: checking for type of reentrant time-related functions
+configure:18008: checking for readdir_r
+configure:18058: checking for type of readdir_r
+configure:18157: checking for in_addr_t
+configure:18196: checking for crypt_r
+configure:18381: checking whether to include gcov symbols
+configure:18544: checking whether to include debugging symbols
+configure:18595: checking layout of installed files
+configure:18630: checking path to configuration file
+configure:18664: checking where to scan for configuration files
+configure:18700: checking whether to enable safe mode by default
+configure:18735: checking for safe mode exec dir
+configure:18779: checking whether to enable PHP's own SIGCHLD handler
+configure:18817: checking whether to enable magic quotes by default
+configure:18855: checking whether to explicitly link against libgcc
+configure:18935: checking whether to enable short tags by default
+configure:18973: checking whether to enable dmalloc
+configure:19061: checking whether to enable IPv6 support
+configure:19091: checking how big to make fd sets
+configure:19162: checking size of long
+configure:19201: checking size of int
+configure:19241: checking for int32_t
+configure:19289: checking for uint32_t
+configure:19346: checking for sys/types.h
+configure:19346: checking for inttypes.h
+configure:19346: checking for stdint.h
+configure:19346: checking for string.h
+configure:19346: checking for stdlib.h
+configure:19386: checking for strtoll
+configure:19386: checking for atoll
+configure:19386: checking for strftime
+configure:19879: checking which regex library to use
+configure:20256: checking whether field re_magic exists in struct regex_t
+configure:20296: checking whether to enable LIBXML support
+configure:20344: checking libxml2 install dir
+configure:20373: checking for xml2-config path
+configure:20531: checking whether libxml build works
+configure:20923: checking for OpenSSL support
+configure:20970: checking for Kerberos support
+configure:22855: checking for PCRE library to use
+configure:23192: checking whether to enable the SQLite3 extension
+configure:23850: checking bundled sqlite3 library
+configure:24188: checking for ZLIB support
+configure:24235: checking if the location of ZLIB install directory is defined
+configure:24681: checking for gzgets in -lz
+configure:24840: checking whether to enable bc style precision math functions
+configure:25208: checking for BZip2 support
+configure:25856: checking whether to enable calendar conversion support
+configure:26203: checking whether to enable ctype functions
+configure:26550: checking for cURL support
+configure:26597: checking if we should use cURL for url streams
+configure:28627: checking for QDBM support
+configure:28958: checking for GDBM support
+configure:29275: checking for NDBM support
+configure:29586: checking for Berkeley DB4 support
+configure:29909: checking for Berkeley DB3 support
+configure:30232: checking for Berkeley DB2 support
+configure:30471: checking for DB1 support
+configure:30826: checking for DBM support
+configure:31235: checking for CDB support
+configure:31266: checking for INI File support
+configure:31297: checking for FlatFile support
+configure:31312: checking whether to enable DBA interface
+configure:31642: checking whether to enable DOM support
+configure:31721: checking for xml2-config path
+configure:31879: checking whether libxml build works
+configure:32329: checking for ENCHANT support
+configure:32983: checking whether to enable EXIF (metadata from images) support
+configure:33330: checking for fileinfo support
+configure:33683: checking for utimes
+configure:33683: checking for strndup
+configure:33749: checking whether to enable input filter support
+configure:33796: checking pcre install prefix
+configure:34215: checking whether to enable FTP support
+configure:34262: checking OpenSSL dir for FTP
+configure:35279: checking for GD support
+configure:35327: checking for the location of libjpeg
+configure:35355: checking for the location of libpng
+configure:35410: checking for the location of libXpm
+configure:35436: checking for FreeType 2
+configure:35462: checking for T1lib support
+configure:35488: checking whether to enable truetype string function in GD
+configure:35514: checking whether to enable JIS-mapped Japanese font support in GD
+configure:43554: checking for GNU gettext support
+configure:44315: checking for GNU MP support
+configure:45101: checking for mhash support
+configure:45148: checking whether to enable hash support
+configure:45209: checking whether byte ordering is bigendian
+configure:45260: checking size of short
+configure:45299: checking size of int
+configure:45338: checking size of long
+configure:45377: checking size of long long
+configure:45745: checking for iconv support
+configure:45808: checking for iconv
+configure:45857: checking for libiconv
+configure:46041: checking for libiconv in -liconv
+configure:46194: checking for iconv in -liconv
+configure:46424: checking if iconv is glibc's
+configure:46433: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:46427:30: error: gnu/libc-version.h: No such file or directory
+configure: failed program was:
+#line 46426 "configure"
+#include "confdefs.h"
+#include <gnu/libc-version.h>
+int main() {
+gnu_get_libc_version();
+; return 0; }
+configure:46451: checking if using GNU libiconv
+configure:46471: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure: In function 'main':
+configure:46465: warning: incompatible implicit declaration of built-in function 'printf'
+configure:46718: checking if iconv supports errno
+configure:46753: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:46785: checking if your cpp allows macro usage in include lines
+configure:46797: gcc -c -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:47153: checking for IMAP support
+configure:47200: checking for IMAP Kerberos support
+configure:47226: checking for IMAP SSL support
+configure:49661: checking for InterBase support
+configure:50599: checking whether to enable internationalization support
+configure:51630: checking whether to enable JavaScript Object Serialization support
+configure:51679: checking for ANSI C header files
+configure:52109: checking for LDAP support
+configure:52156: checking for LDAP Cyrus SASL support
+configure:54995: checking whether to enable multibyte string support
+configure:55042: checking whether to enable multibyte regex support
+configure:55068: checking whether to check multibyte regex backtrack
+configure:55094: checking for external libmbfl
+configure:55120: checking for external oniguruma
+configure:57202: checking for mcrypt support
+configure:58048: checking for MSSQL support via FreeTDS
+configure:58712: checking for MySQL support
+configure:58759: checking for specified location of the MySQL UNIX socket
+configure:59966: checking for MySQLi support
+configure:60013: checking whether to enable embedded MySQLi support
+configure:61002: checking for Oracle (OCI8) support
+configure:64698: checking whether to enable pcntl support
+configure:65275: checking whether to enable PDO support
+configure:65712: checking for PDO_DBLIB support via FreeTDS
+configure:66432: checking for Firebird support for PDO
+configure:67423: checking for MySQL support for PDO
+configure:68934: checking Oracle OCI support for PDO
+configure:70973: checking for ODBC v3 support for PDO
+configure:72105: checking for PostgreSQL support for PDO
+configure:72988: checking for sqlite 3 support for PDO
+configure:73040: checking for PDO includes
+configure:73046: checking for PDO includes
+configure:74230: checking for usleep
+configure:74230: checking for nanosleep
+configure:74286: checking for time.h
+configure:74420: checking for fdatasync in -lrt
+configure:74439: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lrt  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+ld: library not found for -lrt
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 74428 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char fdatasync();
+
+int main() {
+fdatasync()
+; return 0; }
+configure:74520: checking for PostgreSQL support
+configure:76242: checking for phar archive support
+configure:76579: checking for phar openssl support
+configure:76654: checking whether to enable POSIX-like functions
+configure:76999: checking for sys/mkdev.h
+configure:77039: checking for seteuid
+configure:77039: checking for setegid
+configure:77039: checking for setsid
+configure:77039: checking for getsid
+configure:77039: checking for setpgid
+configure:77039: checking for getpgid
+configure:77039: checking for ctermid
+configure:77039: checking for mkfifo
+configure:77039: checking for mknod
+configure:77039: checking for getrlimit
+configure:77039: checking for getlogin
+configure:77039: checking for getgroups
+configure:77039: checking for makedev
+configure:77039: checking for initgroups
+configure:77039: checking for getpwuid_r
+configure:77039: checking for getgrgid_r
+configure:77093: checking for working ttyname_r() implementation
+configure:77113: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:77135: checking for utsname.domainname
+configure:77184: checking for PSPELL support
+configure:77930: checking for libedit readline replacement
+configure:77978: checking for readline support
+configure:79540: checking for recode support
+configure:80663: checking whether to enable PHP sessions
+configure:80710: checking for mm support
+configure:80735: checking whether pwrite works
+configure:80855: checking whether pread works
+configure:81480: checking whether to enable shmop support
+configure:81827: checking whether to enable SimpleXML support
+configure:81906: checking for xml2-config path
+configure:82064: checking whether libxml build works
+configure:82479: checking for SNMP support
+configure:82526: checking OpenSSL dir for SNMP
+configure:82552: checking whether to enable UCD SNMP hack
+configure:84355: checking whether to enable SOAP support
+configure:84969: checking whether to enable sockets support
+configure:85014: checking for struct cmsghdr
+configure:85054: checking for hstrerror
+configure:85054: checking for socketpair
+configure:85110: checking for netdb.h
+configure:85110: checking for netinet/tcp.h
+configure:85110: checking for sys/un.h
+configure:85110: checking for errno.h
+configure:85157: gcc -c -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:85471: checking whether zend_object_value is packed
+configure:85490: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -I/Users/mob/git/packages/php/latest/ext/date/lib -I/usr/include/libxml2 -I/Users/mob/git/packages/php/latest/ext/sqlite3/libsqlite -I/Users/mob/git/packages/php/latest  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure: failed program was:
+#line 85481 "configure"
+#include "confdefs.h"
+
+#include "Zend/zend_types.h"
+int main(int argc, char **argv) {
+	return ((sizeof(zend_object_handle) + sizeof(zend_object_handlers*)) == sizeof(zend_object_value)) ? 0 : 1;
+}
+  
+configure:85854: checking for sqlite support
+configure:85901: checking whether to enable UTF-8 support in sqlite (default: ISO-8859-1)
+configure:85932: checking for PDO includes
+configure:86276: checking for lemon
+configure:86717: checking size of char *
+configure:86798: checking for usleep
+configure:86798: checking for nanosleep
+configure:86854: checking for time.h
+configure:86895: checking whether flush should be called explicitly after a buffered io
+configure:87020: checking for standard DES crypt
+configure:87071: checking for extended DES crypt
+configure:87122: checking for MD5 crypt
+configure:87182: checking for Blowfish crypt
+configure:87349: checking for getcwd
+configure:87349: checking for getwd
+configure:87349: checking for asinh
+configure:87349: checking for acosh
+configure:87349: checking for atanh
+configure:87349: checking for log1p
+configure:87349: checking for hypot
+configure:87349: checking for glob
+configure:87349: checking for strfmon
+configure:87349: checking for nice
+configure:87349: checking for fpclass
+configure:87349: checking for isinf
+configure:87349: checking for isnan
+configure:87402: checking for working fnmatch
+configure:87448: checking for fork
+configure:87508: checking if your OS can spawn processes with inherited handles
+configure:87532: checking for res_nsearch
+configure:87560: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+Undefined symbols:
+  "_res_nsearch", referenced from:
+      _main in ccYbhHi6.o
+ld: symbol(s) not found
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87537 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char res_nsearch(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char res_nsearch();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_res_nsearch) || defined (__stub___res_nsearch)
+choke me
+#else
+res_nsearch();
+#endif
+
+; return 0; }
+configure:87578: checking for __res_nsearch
+configure:87606: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+Undefined symbols:
+  "___res_nsearch", referenced from:
+      _main in ccFEhDDF.o
+ld: symbol(s) not found
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87583 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char __res_nsearch(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __res_nsearch();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub___res_nsearch) || defined (__stub_____res_nsearch)
+choke me
+#else
+__res_nsearch();
+#endif
+
+; return 0; }
+configure:87644: checking for res_nsearch in -lresolv
+configure:87663: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lresolv  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+Undefined symbols:
+  "_res_nsearch", referenced from:
+      _main in cc9CVK3m.o
+ld: symbol(s) not found
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87652 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char res_nsearch();
+
+int main() {
+res_nsearch()
+; return 0; }
+configure:87683: checking for __res_nsearch in -lresolv
+configure:87702: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lresolv  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+Undefined symbols:
+  "___res_nsearch", referenced from:
+      _main in cciwHrtg.o
+ld: symbol(s) not found
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87691 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __res_nsearch();
+
+int main() {
+__res_nsearch()
+; return 0; }
+configure:87780: checking for res_nsearch in -lbind
+configure:87799: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lbind  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+ld: library not found for -lbind
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87788 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char res_nsearch();
+
+int main() {
+res_nsearch()
+; return 0; }
+configure:87819: checking for __res_nsearch in -lbind
+configure:87838: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lbind  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+ld: library not found for -lbind
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87827 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __res_nsearch();
+
+int main() {
+__res_nsearch()
+; return 0; }
+configure:87916: checking for res_nsearch in -lsocket
+configure:87935: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lsocket  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+ld: library not found for -lsocket
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87924 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char res_nsearch();
+
+int main() {
+res_nsearch()
+; return 0; }
+configure:87955: checking for __res_nsearch in -lsocket
+configure:87974: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -lsocket  -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+ld: library not found for -lsocket
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 87963 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __res_nsearch();
+
+int main() {
+__res_nsearch()
+; return 0; }
+configure:88067: checking for dns_search
+configure:88095: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:88602: checking for dn_expand
+configure:88630: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:89137: checking for dn_skipname
+configure:89165: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+Undefined symbols:
+  "_dn_skipname", referenced from:
+      _main in ccHXMOtZ.o
+ld: symbol(s) not found
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 89142 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char dn_skipname(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char dn_skipname();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_dn_skipname) || defined (__stub___dn_skipname)
+choke me
+#else
+dn_skipname();
+#endif
+
+; return 0; }
+configure:89183: checking for __dn_skipname
+configure:89211: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:89674: checking for res_search
+configure:89702: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp -liconv -L/usr/lib -Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv conftest.c -liconv -liconv -lz -lm  -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm -lxml2 -lz -licucore -lm 1>&5
+configure:90205: checking whether atof() accepts NAN
+configure:90263: checking whether atof() accepts INF
+configure:90324: checking whether HUGE_VAL == INF
+configure:90385: checking whether HUGE_VAL + -HUGEVAL == NAN
+configure:90448: checking whether strptime() declaration fails
+configure:90498: checking for wchar.h
+configure:90537: checking for mblen
+configure:90592: checking for mbrlen
+configure:90592: checking for mbsinit
+configure:90645: checking for mbstate_t
+configure:91051: checking for Sybase-CT support
+configure:92141: checking whether to enable System V IPC support
+configure:92524: checking whether to enable System V semaphore support
+configure:92917: checking whether to enable System V shared memory support
+configure:93264: checking for TIDY support
+configure:93919: checking whether to enable tokenizer support
+configure:94268: checking whether to enable WDDX support
+configure:94343: checking libexpat dir for WDDX
+configure:94374: checking for xml2-config path
+configure:94532: checking whether libxml build works
+configure:95126: checking whether to enable XML support
+configure:95201: checking libexpat install dir
+configure:95233: checking for xml2-config path
+configure:95391: checking whether libxml build works
+configure:95954: checking whether to enable XMLReader support
+configure:96033: checking for xml2-config path
+configure:96191: checking whether libxml build works
+configure:96600: checking for XMLRPC-EPI support
+configure:96675: checking libexpat dir for XMLRPC-EPI
+configure:96701: checking iconv dir for XMLRPC-EPI
+configure:96760: checking for xml2-config path
+configure:96918: checking whether libxml build works
+configure:97808: checking for ranlib
+configure:97836: checking for inline
+configure:97888: checking for ANSI C header files
+configure:97995: checking for xmlparse.h
+configure:97995: checking for xmltok.h
+configure:97995: checking for stdlib.h
+configure:97995: checking for strings.h
+configure:97995: checking for string.h
+configure:98037: checking size of char
+configure:98077: checking size of int
+configure:98116: checking size of long
+configure:98155: checking size of long long
+configure:98194: checking for size_t
+configure:98227: checking whether time.h and sys/time.h may both be included
+configure:98262: checking for uid_t in sys/types.h
+configure:98307: checking for strtoul
+configure:98307: checking for strtoull
+configure:98307: checking for snprintf
+configure:98307: checking for strstr
+configure:98307: checking for strpbrk
+configure:98307: checking for strerror
+configure:98307: checking for memcpy
+configure:98307: checking for memmove
+configure:99132: checking whether to enable XMLWriter support
+configure:99211: checking for xml2-config path
+configure:99369: checking whether libxml build works
+configure:99746: checking for XSL support
+configure:100425: checking for zip archive read/writesupport
+configure:100500: checking pcre install prefix
+configure:101071: checking whether to enable threaded fetch in mysqlnd
+configure:101730: checking whether to install PEAR
+configure:101835: checking for bison version
+configure:101891: checking for inttypes.h
+configure:101891: checking for stdint.h
+configure:101891: checking for limits.h
+configure:101891: checking for malloc.h
+configure:101891: checking for string.h
+configure:101891: checking for unistd.h
+configure:101891: checking for stdarg.h
+configure:101891: checking for sys/types.h
+configure:101891: checking for sys/time.h
+configure:101891: checking for signal.h
+configure:101891: checking for unix.h
+configure:101891: checking for stdlib.h
+configure:101891: checking for dlfcn.h
+configure:101929: checking for size_t
+configure:101962: checking return type of signal handlers
+configure:102008: checking for uint
+configure:102041: checking for ulong
+configure:102076: checking for int32_t
+configure:102097: gcc -c -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:102116: checking for uint32_t
+configure:102137: gcc -c -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp conftest.c 1>&5
+configure:102156: checking for vprintf
+configure:102261: checking for 8-bit clean memcmp
+configure:102299: checking for working alloca.h
+configure:102332: checking for alloca
+configure:102533: checking for memcpy
+configure:102533: checking for strdup
+configure:102533: checking for getpid
+configure:102533: checking for kill
+configure:102533: checking for strtod
+configure:102533: checking for strtol
+configure:102533: checking for finite
+configure:102533: checking for fpclass
+configure:102533: checking for sigsetjmp
+configure:102587: checking whether sprintf is broken
+configure:102636: checking for finite
+configure:102636: checking for isfinite
+configure:102636: checking for isinf
+configure:102636: checking for isnan
+configure:102691: checking whether fp_except is defined
+configure:102735: checking for usable _FPU_SETCW
+configure:102757: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure:102739:29: error: fpu_control.h: No such file or directory
+configure: In function 'main':
+configure:102743: error: 'fpu_control_t' undeclared (first use in this function)
+configure:102743: error: (Each undeclared identifier is reported only once
+configure:102743: error: for each function it appears in.)
+configure:102743: error: expected ';' before 'fpu_oldcw'
+configure:102748: error: 'fpu_oldcw' undeclared (first use in this function)
+configure:102749: error: 'fpu_cw' undeclared (first use in this function)
+configure:102749: error: '_FPU_EXTENDED' undeclared (first use in this function)
+configure:102749: error: '_FPU_SINGLE' undeclared (first use in this function)
+configure:102749: error: '_FPU_DOUBLE' undeclared (first use in this function)
+configure: failed program was:
+#line 102737 "configure"
+#include "confdefs.h"
+
+    #include <fpu_control.h>
+  
+int main() {
+
+    fpu_control_t fpu_oldcw, fpu_cw;
+    volatile double result;
+    double a = 2877.0;
+    volatile double b = 1000000.0;
+
+    _FPU_GETCW(fpu_oldcw);
+    fpu_cw = (fpu_oldcw & ~_FPU_EXTENDED & ~_FPU_SINGLE) | _FPU_DOUBLE;
+    _FPU_SETCW(fpu_cw);
+    result = a / b;
+    _FPU_SETCW(fpu_oldcw);
+  
+; return 0; }
+configure:102778: checking for usable fpsetprec
+configure:102799: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure:102782:32: error: machine/ieeefp.h: No such file or directory
+configure: In function 'main':
+configure:102786: error: 'fp_prec_t' undeclared (first use in this function)
+configure:102786: error: (Each undeclared identifier is reported only once
+configure:102786: error: for each function it appears in.)
+configure:102786: error: expected ';' before 'fpu_oldprec'
+configure:102791: error: 'fpu_oldprec' undeclared (first use in this function)
+configure:102792: error: 'FP_PD' undeclared (first use in this function)
+configure: failed program was:
+#line 102780 "configure"
+#include "confdefs.h"
+
+    #include <machine/ieeefp.h>
+  
+int main() {
+
+    fp_prec_t fpu_oldprec;
+    volatile double result;
+    double a = 2877.0;
+    volatile double b = 1000000.0;
+
+    fpu_oldprec = fpgetprec();
+    fpsetprec(FP_PD);
+    result = a / b;
+    fpsetprec(fpu_oldprec);
+  
+; return 0; }
+configure:102820: checking for usable _controlfp
+configure:102841: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure: In function 'main':
+configure:102834: error: '_PC_53' undeclared (first use in this function)
+configure:102834: error: (Each undeclared identifier is reported only once
+configure:102834: error: for each function it appears in.)
+configure:102834: error: '_MCW_PC' undeclared (first use in this function)
+configure: failed program was:
+#line 102822 "configure"
+#include "confdefs.h"
+
+    #include <float.h>
+  
+int main() {
+
+    unsigned int fpu_oldcw;
+    volatile double result;
+    double a = 2877.0;
+    volatile double b = 1000000.0;
+
+    fpu_oldcw = _controlfp(0, 0);
+    _controlfp(_PC_53, _MCW_PC);
+    result = a / b;
+    _controlfp(fpu_oldcw, _MCW_PC);
+  
+; return 0; }
+configure:102862: checking for usable _controlfp_s
+configure:102884: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure: In function 'main':
+configure:102877: error: '_PC_53' undeclared (first use in this function)
+configure:102877: error: (Each undeclared identifier is reported only once
+configure:102877: error: for each function it appears in.)
+configure:102877: error: '_MCW_PC' undeclared (first use in this function)
+configure: failed program was:
+#line 102864 "configure"
+#include "confdefs.h"
+
+   #include <float.h>
+  
+int main() {
+
+    unsigned int fpu_oldcw, fpu_cw;
+    volatile double result;
+    double a = 2877.0;
+    volatile double b = 1000000.0;
+
+    _controlfp_s(&fpu_cw, 0, 0);
+    fpu_oldcw = fpu_cw;
+    _controlfp_s(&fpu_cw, _PC_53, _MCW_PC);
+    result = a / b;
+    _controlfp_s(&fpu_cw, fpu_oldcw, _MCW_PC);
+  
+; return 0; }
+configure:102905: checking whether FPU control word can be manipulated by inline assembler
+configure:102929: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure:102951: checking whether double cast to long preserves least significant bits
+configure:102983: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure: In function 'main':
+configure:102969: warning: incompatible implicit declaration of built-in function 'exit'
+configure:102975: warning: incompatible implicit declaration of built-in function 'exit'
+configure:102978: warning: incompatible implicit declaration of built-in function 'exit'
+configure: failed program was:
+#line 102959 "configure"
+#include "confdefs.h"
+
+#include <limits.h>
+
+int main()
+{
+	if (sizeof(long) == 4) {
+		double d = (double) LONG_MIN * LONG_MIN + 2e9;
+
+		if ((long) d == 2e9 && (long) -d == -2e9) {
+			exit(0);
+		}
+	} else if (sizeof(long) == 8) {
+		double correct = 18e18 - ((double) LONG_MIN * -2); /* Subtract ULONG_MAX + 1 */
+
+		if ((long) 18e18 == correct) { /* On 64-bit, only check between LONG_MAX and ULONG_MAX */
+			exit(0);
+		}
+	}
+	exit(1);
+}
+
+configure:103009: checking for dlfcn.h
+configure:103047: checking whether dlsym() requires a leading underscore in symbol names
+configure:103115: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden  -no-cpp-precomp  conftest.c  1>&5
+configure: In function 'main':
+configure:103111: warning: incompatible implicit declaration of built-in function 'exit'
+configure:103198: checking virtual machine dispatch method
+configure:103202: checking whether to enable thread-safety
+configure:103206: checking whether to enable inline optimization for GCC
+configure:103210: checking whether to enable Zend debugging
+configure:103214: checking whether to enable Zend multibyte
+configure:103287: checking for inline
+configure:103330: checking target system is Darwin
+configure:103342: checking for MM alignment and log values
+configure:103386: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden -DZTS  -no-cpp-precomp  conftest.c  1>&5
+configure: In function 'main':
+configure:103378: warning: format '%d' expects type 'int', but argument 3 has type 'long unsigned int'
+configure:103381: warning: incompatible implicit declaration of built-in function 'exit'
+configure:103411: checking for memory allocation using mmap(MAP_ANON)
+configure:103455: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden -DZTS  -no-cpp-precomp  conftest.c  1>&5
+configure:103477: checking for memory allocation using mmap(/dev/zero)
+configure:103531: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden -DZTS  -no-cpp-precomp  conftest.c  1>&5
+configure: failed program was:
+#line 103485 "configure"
+#include "confdefs.h"
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <stdlib.h>
+#include <stdio.h>
+#ifndef MAP_ANON
+# ifdef MAP_ANONYMOUS
+#  define MAP_ANON MAP_ANONYMOUS
+# endif
+#endif
+#ifndef MREMAP_MAYMOVE
+# define MREMAP_MAYMOVE 0
+#endif
+#ifndef MAP_FAILED
+# define MAP_FAILED ((void*)-1)
+#endif
+
+#define SEG_SIZE (256*1024)
+
+int main()
+{
+	int fd;
+	void *seg;
+
+	fd = open("/dev/zero", O_RDWR, S_IRUSR | S_IWUSR);
+	if (fd < 0) {
+		return 1;
+	}
+	seg = mmap(NULL, SEG_SIZE, PROT_READ | PROT_WRITE, MAP_PRIVATE, fd, 0);
+	if (seg == MAP_FAILED) {
+		return 2;
+	}
+	if (munmap(seg, SEG_SIZE) != 0) {
+		return 3;
+	}
+	if (close(fd) != 0) {
+		return 4;
+	}
+	return 0;
+}
+
+configure:103555: checking for mremap
+configure:103650: checking for stdarg.h
+configure:103864: gcc -o conftest -I/usr/include -arch x86_64 -fvisibility=hidden -DZTS  -no-cpp-precomp  conftest.c  1>&5
+configure:103884: checking for pthreads_cflags
+configure:103954: checking for pthreads_lib
+configure:104045: checking for POSIX threads
+configure:104664: checking build system type
+configure:104693: checking for ld used by gcc
+configure:104765: checking if the linker (/usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld) is GNU ld
+configure:104785: checking for /usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld option to reload object files
+configure:104810: checking for BSD-compatible nm
+configure:104856: checking how to recognise dependent libraries
+configure:105034: checking for object suffix
+configure:105060: checking for executable suffix
+configure:105311: checking the maximum length of command line arguments
+configure:105412: checking command to parse /usr/bin/nm output from gcc object
+configure:105601: checking for objdir
+configure:105667: checking for ar
+configure:105734: checking for ranlib
+configure:105801: checking for strip
+configure:106138: checking if gcc static flag  works
+configure:106188: checking if gcc supports -fno-rtti -fno-exceptions
+configure:106238: checking for gcc option to produce PIC
+configure:106457: checking if gcc PIC flag -fno-common works
+configure:106474: gcc -c -I/usr/include -arch x86_64 -fvisibility=hidden -DZTS  -no-cpp-precomp -fno-common -DPIC conftest.c 1>&5
+configure:106478: $? = 0
+configure:106516: checking if gcc supports -c -o file.o
+configure:106587: checking whether the gcc linker (/usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld) supports shared libraries
+configure:107484: checking dynamic linker characteristics
+configure:108058: checking how to hardcode library paths into programs
+configure:108096: checking whether stripping libraries is possible
+configure:108681: checking if libtool supports shared libraries
+configure:108685: checking whether to build shared libraries
+configure:108708: checking whether to build static libraries

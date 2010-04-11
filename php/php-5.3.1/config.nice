@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CFLAGS='-arch x86_64' \
+LDFLAGS='-Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv' \
+'./configure' \
+'--host=x86_64-apple-darwin10.0.0' \
+'--disable-debug' \
+'--disable-rpath' \
+'--disable-cli' \
+'--enable-bcmath' \
+'--enable-calendar' \
+'--enable-maintainer-zts' \
+'--enable-embed=shared' \
+'--enable-force-cgi-redirect' \
+'--enable-ftp' \
+'--enable-inline-optimization' \
+'--enable-magic-quotes' \
+'--enable-memory-limit' \
+'--enable-safe-mode' \
+'--enable-sockets' \
+'--enable-track-vars' \
+'--enable-trans-sid' \
+'--enable-wddx' \
+'--sysconfdir=/etc/appweb' \
+'--with-pic' \
+'--with-exec-dir=/etc/appweb/exec' \
+'--with-db' \
+'--with-regex=system' \
+'--with-pear' \
+'--with-xml' \
+'--with-xmlrpc' \
+'--with-zlib' \
+"$@"
