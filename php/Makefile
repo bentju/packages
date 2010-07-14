@@ -49,3 +49,6 @@ endif
 
 clean:
 	make -C latest clean
+
+prep:
+	apt-get install libxml2-dev curl libdb-dev libz-dev
