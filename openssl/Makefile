@@ -35,3 +35,5 @@ endif
 clean:
 	make -C latest clean
 
+prep:
+	apt-get install execstack

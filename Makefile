@@ -11,3 +11,13 @@ all:
 
 clean:
 	for p in $(PACKAGES) ; do $(MAKE) -C $$p clean ; done
+
+
+#
+#	Required packages on linux
+#
+prep:
+	@for p in $(PACKAGES) ; do \
+		echo Building $$p ; \
+		make -C $$p ; \
+	done
