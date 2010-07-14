@@ -6,8 +6,8 @@ PACKAGES	:= matrixssl openssl php
 all: 
 	@for p in $(PACKAGES) ; do \
 		echo Building $$p ; \
-		make -C $$p ; \
+		$(MAKE) -C $$p ; \
 	done
 
 clean:
-	for p in $(PACKAGES) ; do make -C $$p clean ; done
+	for p in $(PACKAGES) ; do $(MAKE) -C $$p clean ; done
