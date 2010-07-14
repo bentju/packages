@@ -28,7 +28,7 @@ ifeq ($(BLD_OS),MACOSX)
 	cd latest ; ./Configure darwin64-x86_64-cc ; make
 else
 	cd latest ; ./config shared ; make
-	[ -x /usr/bin/execstack ] && execstack -c latest/*.so
+	[ -x /usr/bin/execstack ] && execstack -c latest/*.so ; true
 endif
 endif
 
