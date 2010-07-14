@@ -14,7 +14,8 @@ export INCLUDE="C:/Program Files/Microsoft Visual Studio 9.0/VC/INCLUDE;C:/Progr
 export LIB="C:\Program Files\Microsoft Visual Studio 9.0\VC\LIB;C:\Program Files\Microsoft SDKs\Windows\v6.0A\lib"
 export LIBPATH="C:/WINDOWS/Microsoft.NET/Framework/v3.5;C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727;C:/Program Files/Microsoft Visual Studio 9.0/VC/LIB;"
 
-export PATH="/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/IDE:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/BIN:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v3.5:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v2.0.50727:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/VCPackages:/cygdrive/c/Program Files/Microsoft SDKs/Windows/v6.0A/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/bin:/cygdrive/c/usr/bin:/cygdrive/c/usr/local/bin:/cygdrive/c/Program Files/Mercurial:/usr/local/bin"
+unalias mc
+export PATH="`pwd`/bin:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/IDE:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/BIN:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v3.5:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v2.0.50727:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/VCPackages:/cygdrive/c/Program Files/Microsoft SDKs/Windows/v6.0A/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/bin:/cygdrive/c/usr/bin:/cygdrive/c/usr/local/bin:/cygdrive/c/Program Files/Mercurial:/usr/local/bin"
 
 export PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"
 export PROCESSOR_ARCHITECTURE="x86"
