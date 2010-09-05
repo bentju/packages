@@ -1,6 +1,6 @@
-# export INCLUDE="c:/Program Files/Microsoft Visual Studio 9.0/VC/INCLUDE;c:/Program Files/Microsoft SDKs/Windows/v6.0A/include;$INCLUDE"
-# export LIB="c:/Program Files/Microsoft Visual Studio 9.0/VC/LIB;c:/Program Files/Microsoft SDKs/Windows/v6.0A/LIB;$LIB"
-# export PATH="/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/IDE:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/BIN:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/Tools:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/SDK/v2.0/bin:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/VCPackages:/cygdrive/c/Program Files/Microsoft SDKs/Windows/v6.0A/bin:${PATH}"
+# export INCLUDE="c:/Program Files/Microsoft Visual Studio 9.0/VC/INCLUDE;c:/Program Files/Microsoft SDKs/Windows/v7.0A/include;$INCLUDE"
+# export LIB="c:/Program Files/Microsoft Visual Studio 9.0/VC/LIB;c:/Program Files/Microsoft SDKs/Windows/v7.0A/LIB;$LIB"
+# export PATH="/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/IDE:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/BIN:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/Tools:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/SDK/v2.0/bin:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/VCPackages:/cygdrive/c/Program Files/Microsoft SDKs/Windows/v7.0A/bin:${PATH}"
 # export COMSPEC="C:/WINDOWS/system32/cmd.exe"
 
 export CommonProgramFiles="C:/Program Files/Common Files"
@@ -10,12 +10,11 @@ export Framework35Version="v3.5"
 export FrameworkDir="C:/WINDOWS/Microsoft.NET/Framework"
 export FrameworkVersion="v2.0.50727"
 export HOMEDRIVE="C:"
-export INCLUDE="C:/Program Files/Microsoft Visual Studio 9.0/VC/INCLUDE;C:/Program Files/Microsoft SDKs/Windows/v6.0A/include"
-export LIB="C:\Program Files\Microsoft Visual Studio 9.0\VC\LIB;C:\Program Files\Microsoft SDKs\Windows\v6.0A\lib"
+export INCLUDE="C:/Program Files/Microsoft Visual Studio 9.0/VC/INCLUDE;C:/Program Files/Microsoft SDKs/Windows/v7.0A/include"
+export LIB="C:\Program Files\Microsoft Visual Studio 9.0\VC\LIB;C:\Program Files\Microsoft SDKs\Windows\v7.0A\lib"
 export LIBPATH="C:/WINDOWS/Microsoft.NET/Framework/v3.5;C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727;C:/Program Files/Microsoft Visual Studio 9.0/VC/LIB;"
 
-unalias mc
-export PATH="`pwd`/bin:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/IDE:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/BIN:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v3.5:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v2.0.50727:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/VCPackages:/cygdrive/c/Program Files/Microsoft SDKs/Windows/v6.0A/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/bin:/cygdrive/c/usr/bin:/cygdrive/c/usr/local/bin:/cygdrive/c/Program Files/Mercurial:/usr/local/bin"
+export PATH="`pwd`/bin:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/IDE:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/BIN:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/Common7/Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v3.5:/cygdrive/c/WINDOWS/Microsoft.NET/Framework/v2.0.50727:/cygdrive/c/Program Files/Microsoft Visual Studio 9.0/VC/VCPackages:/cygdrive/c/Program Files/Microsoft SDKs/Windows/v7.0A/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/bin:/cygdrive/c/usr/bin:/cygdrive/c/usr/local/bin:/cygdrive/c/Program Files/Mercurial:/usr/local/bin"
 
 export PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"
 export PROCESSOR_ARCHITECTURE="x86"
@@ -26,12 +25,11 @@ export ProgramFiles="C:/Program Files"
 export SystemDrive="C:"
 export SystemRoot="C:/WINDOWS"
 export VCINSTALLDIR="C:/Program Files/Microsoft Visual Studio 9.0/VC"
-export VS100COMNTOOLS="C:/Program Files/Microsoft Visual Studio 10.0/Common7/Tools/"
+export VS100COMNTOOLS="C:/Program Files/Microsoft Visual Studio 9.0/Common7/Tools/"
 export VS80COMNTOOLS="C:/Program Files/Microsoft Visual Studio 8/Common7/Tools/"
 export VS90COMNTOOLS="C:/Program Files/Microsoft Visual Studio 9.0/Common7/Tools/"
 export VSINSTALLDIR="C:/Program Files/Microsoft Visual Studio 9.0"
 export windir="C:/WINDOWS"
-export WindowsSdkDir="C:/Program Files/Microsoft SDKs/Windows/v6.0A/"
+export WindowsSdkDir="C:/Program Files/Microsoft SDKs/Windows/v7.0A/"
 
-
-
+unalias mc
