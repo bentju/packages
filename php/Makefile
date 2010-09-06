@@ -2,7 +2,7 @@
 #	Makefile for PHP
 #
 
-LATEST		:= php-5.3.2
+LATEST		:= php-5.3.3
 BLD_OS      := $(shell ../getos)
 BLD_ARCH    := $(shell ../getarch)
 
@@ -52,3 +52,18 @@ clean:
 
 prep:
 	apt-get install libxml2-dev curl libdb-dev libz-dev
+
+#
+#	Mac 32 bit build
+make32:
+	rm -f latest ; ln -s $(LATEST) latest
+	MACOSX_DEPLOYMENT_TARGET=10.5 ; \
+	CFLAGS="-arch i386"; \
+	CCFLAGS="$CFLAGS" ; \
+	LDFLAGS="-Wl,-install_name,@rpath/libphp5.dylib -arch i386 -bind_at_load -lresolv" ; \
+	export LDFLAGS CFLAGS CCFLAGS MACOSX_DEPLOYMENT_TARGET ; \
+	cd latest ; ./configure --host=i386-apple-darwin10.0.0 $(OPTIONS) ; \
+	cp Makefile Makefile.new ; \
+	sed 's/EXTRA_LDFLAGS = -avoid-version -module/EXTRA_LDFLAGS = -avoid-version/' < Makefile.new > Makefile ; \
+	make clean ; make
+
