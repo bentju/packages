@@ -42,8 +42,10 @@ extern "C" {
 /*
 	Platform integer sizes
 */
+#ifndef HAS_INT32
 typedef int int32;
 typedef unsigned int uint32;
+#endif
 
 /******************************************************************************/
 /*
