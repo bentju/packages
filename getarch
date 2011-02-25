@@ -5,7 +5,10 @@
 machine=`uname -m`
 case $machine in
 i386|i686)
-    if [ "`uname`" = Darwin ] ; then
+    if [ "${PROCESSOR_ARCHITECTURE}" = AMD64 -o "${PROCESSOR_ARCHITEW6432}" = AMD64 ] ; then
+        # echo x86_64
+        echo i686
+    elif [ "`uname`" = Darwin ] ; then
         echo x86_64
     else echo i686 
     fi

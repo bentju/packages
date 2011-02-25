@@ -11,9 +11,10 @@ export Framework35Version="v3.5"
 export FrameworkDir="${DRIVE}:\WINDOWS\Microsoft.NET\Framework"
 export FrameworkVersion="v2.0.50727"
 export HOMEDRIVE="${DRIVE}:"
-export INCLUDE="${DRIVE}:\${PF}\Microsoft Visual Studio ${VSVER}\VC\INCLUDE;${DRIVE}:\${PF}\Microsoft SDKs\Windows\${SDKVER}\include"
-export LIB="${DRIVE}:\${PF}\Microsoft Visual Studio ${VSVER}\VC\LIB;${DRIVE}:\${PF}\Microsoft SDKs\Windows\${SDKVER}\lib"
-export LIBPATH="${DRIVE}:\WINDOWS\Microsoft.NET\Framework\v3.5;${DRIVE}:\WINDOWS\Microsoft.NET\Framework\v2.0.50727;${DRIVE}:\${PF}\Microsoft Visual Studio ${VSVER}\VC\LIB;"
+export INCLUDE="${DRIVE}:\\${PF}\\Microsoft Visual Studio ${VSVER}\\VC\\INCLUDE;${DRIVE}:\\${PF}\\Microsoft SDKs\\Windows\\${SDKVER}\\include"
+export LIB="${DRIVE}:\\${PF}\\Microsoft Visual Studio ${VSVER}\\VC\\LIB;${DRIVE}:\\${PF}\\Microsoft SDKs\\Windows\\${SDKVER}\\lib"
+# export LIBPATH="${DRIVE}:\\WINDOWS\\Microsoft.NET\\Framework\\v3.5;${DRIVE}:\\WINDOWS\\Microsoft.NET\\Framework\\v2.0.50727;${DRIVE}:\${PF}\Microsoft Visual Studio ${VSVER}\VC\LIB;"
+export LIBPATH="${DRIVE}\\${PF}\\Microsoft Visual Studio ${VSVER}\VC\\LIB;"
 
 export PATH="`pwd`/bin:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/Common7/IDE:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/VC/BIN:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/Common7/Tools:/cygdrive/${DRIVE}/WINDOWS/Microsoft.NET/Framework/v3.5:/cygdrive/${DRIVE}/WINDOWS/Microsoft.NET/Framework/v2.0.50727:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/VC/VCPackages:/cygdrive/${DRIVE}/${PF}/Microsoft SDKs/Windows/${SDKVER}/bin:/cygdrive/${DRIVE}/WINDOWS/system32:/cygdrive/${DRIVE}/WINDOWS:/cygdrive/${DRIVE}/bin:/cygdrive/${DRIVE}/usr/bin:/cygdrive/${DRIVE}/usr/local/bin:/usr/local/bin"
 
