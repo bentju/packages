@@ -1,6 +1,10 @@
 export DRIVE=C
 export CYGROOT=/cygdrive/c
-export PF="Program Files (x86)"
+if [ -x "$DRIVE/Program Files (x86)" ] ; then
+    export PF="Program Files (x86)"
+else
+    export PF="Program Files"
+fi
 export SDKVER="v7.0A"
 export VSVER="10.0"
 
