@@ -25,7 +25,7 @@ else
 #	Remove shared just because 1.0 beta is broken building shared on mac
 #
 ifeq ($(BLD_OS),MACOSX)
-	cd latest ; ./Configure darwin64-x86_64-cc ; make
+	cd latest ; ./Configure darwin64-x86_64-cc shared ; make
 else
 	cd latest ; ./config shared ; make
 	[ -x /usr/bin/execstack ] && execstack -c latest/*.so ; true
