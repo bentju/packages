@@ -2,7 +2,7 @@
 #	Makefile for PHP
 #
 
-LATEST		:= php-5.3.6
+LATEST		:= php-5.3.8
 BLD_OS      := $(shell ../getos)
 BLD_ARCH    := $(shell ../getarch)
 
@@ -12,9 +12,10 @@ OPTIONS		:= 	--disable-debug --disable-rpath --disable-cli --enable-bcmath --ena
 			   	--enable-sockets --enable-wddx --sysconfdir=/etc/appweb \
 			   	--with-pic --with-exec-dir=/etc/appweb/exec --with-regex=system --with-pear \
 			   	--with-xmlrpc --with-zlib
-WIN_OPTIONS	:= 	--without-gd --disable-bcmath --disable-calendar --disable-com-dotnet --disable-filter \
+WIN_OPTIONS	:= 	--enable-debug --without-gd --disable-bcmath --disable-calendar --disable-com-dotnet --disable-filter \
 			   	--disable-json --disable-ipv6 --disable-odbc --disable-tokenizer \
-			   	--disable-zlib --disable-ftp --enable-embed --enable-zts --without-dom --without-libxml
+			   	--disable-zlib --disable-ftp --enable-embed --enable-zts --without-dom --without-libxml \
+				--without-iconv --without-simplexml --without-xml
 # MORE_OPTIONS:=	--with-mysql=/usr/local/mysql-client
 export 		BLD_OS BLD_ARCH
 
@@ -26,7 +27,7 @@ all:
 	rm -f latest ; ln -s $(LATEST) latest
 ifeq ($(BLD_OS),WIN)
 	set -e ; cd latest ; \
-	/bin/find . -name '*.obj' -print | xargs -i -t rm -f {} ; \
+	/bin/find . -name '*.obj' -print | xargs rm -f ; \
 	rm -fr Debug_TS Release_TS ; \
 	cmd /c buildconf.bat ; \
 	cscript /nologo configure.js $(WIN_OPTIONS) ; \
