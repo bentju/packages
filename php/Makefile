@@ -12,7 +12,7 @@ OPTIONS		:= 	--disable-debug --disable-rpath --disable-cli --enable-bcmath --ena
 			   	--enable-sockets --enable-wddx --sysconfdir=/etc/appweb \
 			   	--with-pic --with-exec-dir=/etc/appweb/exec --with-regex=system --with-pear \
 			   	--with-xmlrpc --with-zlib
-WIN_OPTIONS	:= 	--enable-debug --without-gd --disable-bcmath --disable-calendar --disable-com-dotnet --disable-filter \
+WIN_OPTIONS	:= 	--disable-debug --without-gd --disable-bcmath --disable-calendar --disable-com-dotnet --disable-filter \
 			   	--disable-json --disable-ipv6 --disable-odbc --disable-tokenizer \
 			   	--disable-zlib --disable-ftp --enable-embed --enable-zts --without-dom --without-libxml \
 				--without-iconv --without-simplexml --without-xml
