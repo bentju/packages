@@ -533,8 +533,10 @@ ZEND_API void zend_hash_destroy(HashTable *ht)
 		}
 		pefree(q, ht->persistent);
 	}
-	pefree(ht->arBuckets, ht->persistent);
-
+    //  EMBEDTHIS FIX - added test
+    if (ht->argBuckets) {
+        pefree(ht->arBuckets, ht->persistent);
+    }
 	SET_INCONSISTENT(HT_DESTROYED);
 }
 
