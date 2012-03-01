@@ -104690,6 +104690,7 @@ fi
 echo "$ac_t""$ac_cv_type_ulong" 1>&6
 if test $ac_cv_type_ulong = no; then
   cat >> confdefs.h <<\EOF
+#undef ulong
 #define ulong unsigned long 
 EOF
 
