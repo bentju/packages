@@ -13,8 +13,8 @@ all:
 ifeq ($(BLD_OS),WIN)
 	cd latest ; make -f ../../Makefile.win
 else
-	make -C latest/src
+	make -C latest
 endif
 
 clean:
-	make -C latest/src clean
+	make -C latest clean
