@@ -83,8 +83,8 @@ CC	= cc
 SO	= .dylib
 SHARED	= -dynamiclib
 CFLAGS += -DOSX -isystem -I/usr/include
-#LDFLAGS += -install_name @rpath/$(LIBRARY)
-LDFLAGS += -flat_namespace -install_name @executable_path/./$(LIBRARY)
+LDFLAGS += -install_name @rpath/$(LIBRARY)
+#LDFLAGS += -flat_namespace -install_name @rpath/$(LIBRARY)
 STRIP = test
 endif
 

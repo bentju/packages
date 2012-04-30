@@ -182,7 +182,8 @@
 /* }}} */
 
 
-#if !HAVE_STRNLEN
+#define HAVE_STRNLEN 1
+#if !HAVE_STRNLEN 
 static size_t strnlen(const char *s, size_t maxlen) {
 	char *r = memchr(s, '\0', maxlen);
 	return r ? r-s : maxlen;

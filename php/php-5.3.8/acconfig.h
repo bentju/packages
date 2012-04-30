@@ -21,6 +21,7 @@
 /* $Id: acconfig.h 306939 2011-01-01 02:19:59Z felipe $ */
 
 #if defined(__GNUC__) && __GNUC__ >= 4
+# undef ZEND_API
 # define ZEND_API __attribute__ ((visibility("default")))
 # define ZEND_DLEXPORT __attribute__ ((visibility("default")))
 #else
