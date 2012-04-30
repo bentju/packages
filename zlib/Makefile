@@ -13,6 +13,7 @@ all:
 ifeq ($(BLD_OS),WIN)
 	cd latest ; make -f ../Makefile.win
 else
+	cd latest ; ./configure
 	make -C latest
 endif
 
