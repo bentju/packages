@@ -1,13 +1,21 @@
 export DRIVE=C
 export CYGROOT=/cygdrive/c
-if [ -x "$DRIVE/Program Files (x86)" ] ; then
+export SDKVER="v7.0A"
+export VSVER="10.0"
+
+if [ -x "${DRIVE}:/Program Files (x86)" ] ; then
     export PF="Program Files (x86)"
 else
     export PF="Program Files"
 fi
-export SDKVER="v7.0A"
-export VSVER="10.0"
-ARCH=`./getarch`
+
+if [ "$1" = '' ] ; then
+    ARCH=`./getarch`
+elif [ "$1" = 'x64' ] ; then
+    ARCH=x86_64
+else
+    ARCH="$1"
+fi
 
 export CommonProgramFiles="${DRIVE}:\${PF}\Common Files"
 export ComSpec="${DRIVE}:\WINDOWS\system32\cmd.exe"
@@ -17,7 +25,7 @@ export INCLUDE="${DRIVE}:\\${PF}\\Microsoft Visual Studio ${VSVER}\\VC\\INCLUDE;
 
 if [ "$ARCH" = x86_64 ] ; then
     echo Configuring for 64 bit builds
-    export LIB="${DRIVE}:\\${PF}\\Microsoft Visual Studio ${VSVER}\\VC\\LIB;${DRIVE}:\\${PF}\\Microsoft SDKs\\Windows\\${SDKVER}\\lib\64"
+    export LIB="${DRIVE}:\\${PF}\\Microsoft Visual Studio ${VSVER}\\VC\\LIB\\amd64;${DRIVE}:\\${PF}\\Microsoft SDKs\\Windows\\${SDKVER}\\lib\x64"
     export PATH="`pwd`/bin:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/Common7/IDE:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/VC/BIN/amd64:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/Common7/Tools:/cygdrive/${DRIVE}/WINDOWS/Microsoft.NET/Framework/v3.5:/cygdrive/${DRIVE}/WINDOWS/Microsoft.NET/Framework/v2.0.50727:/cygdrive/${DRIVE}/${PF}/Microsoft Visual Studio ${VSVER}/VC/VCPackages:/cygdrive/${DRIVE}/${PF}/Microsoft SDKs/Windows/${SDKVER}/bin:/cygdrive/${DRIVE}/WINDOWS/system32:/cygdrive/${DRIVE}/WINDOWS:/cygdrive/${DRIVE}/bin:/cygdrive/${DRIVE}/usr/bin:/cygdrive/${DRIVE}/usr/local/bin:/usr/local/bin"
 else 
     echo Configuring for 32 bit builds
@@ -26,3 +34,9 @@ else
 fi
 
 unalias mc 2>/dev/null
+
+echo
+type cl
+type link
+echo LIB $LIB 
+echo INCLUDE $INCLUDE 
