@@ -2,7 +2,7 @@
 #	Build openssl
 #
 
-LATEST		:= openssl-1.0.0d
+LATEST		:= openssl-1.0.1b
 BLD_OS		:= $(shell ../getos)
 BLD_ARCH	:= $(shell ../getarch)
 
