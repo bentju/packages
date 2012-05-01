@@ -2,13 +2,20 @@
 #	Build openssl
 #
 
-LATEST		:= openssl-1.0.0d
+LATEST		:= openssl-1.0.0i
 BLD_OS		:= $(shell ../getos)
 BLD_ARCH	:= $(shell ../getarch)
 
 ifeq ($(BLD_OS),WIN)
 PATH		:= $(PWD)/../bin:$(PATH)
 export 		PATH
+ifeq ($(PROCESSOR_ARCHITEW6432), AMD64)
+CONFIG      := VC-WIN64A
+DOSCRIPT    := do_win64a
+else
+CONFIG      := VC-WIN32
+DOSCRIPT    := do_ms
+endif
 endif
 
 all:
@@ -17,13 +24,10 @@ ifeq ($(BLD_OS),WIN)
 	cd latest ; \
 	rm -f libcrypto.lib libeay32.dll libssl.lib ssleay32.dll ; \
 	rm -f out32dll/*.exe out32dll/*.dll out32dll/*.lib tmp32dll/* ; \
-	perl Configure VC-WIN32 ; \
-	cmd /c ms\\do_ms ; \
+	perl Configure $(CONFIG) ; \
+	cmd /c ms\\$(DOSCRIPT) ; \
 	unset MAKEFLAGS ; nmake -f ms/ntdll.mak 
 else
-#
-#	Remove shared just because 1.0 beta is broken building shared on mac
-#
 ifeq ($(BLD_OS),MACOSX)
 	cd latest ; ./Configure darwin64-x86_64-cc shared ; make
 else
