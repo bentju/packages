@@ -7,7 +7,17 @@ if ($flavour =~ /\./) { $output = $flavour; undef $flavour; }
 $win64=0; $win64=1 if ($flavour =~ /[nm]asm|mingw64/ || $output =~ /\.asm$/);
 
 $0 =~ m/(.*[\/\\])[^\/\\]+$/; $dir=$1;
-open STDOUT,"| $^X ${dir}perlasm/x86_64-xlate.pl $flavour $output";
+# $dir =~ s/\\/\//g;
+
+( $xlate="${dir}x86_64-xlate.pl" and -f $xlate ) or
+( $xlate="${dir}perlasm/x86_64-xlate.pl" and -f $xlate) or
+die "can't locate x86_64-xlate.pl";
+
+# EMBEDTHIS
+# $output =~ s/\\/\//g;
+# $xlate =~ s/\\/\//g;
+
+open STDOUT,"| $^X \"$xlate\" $flavour \"$output\"";
 
 if ($win64)	{ $arg1="%rcx"; $arg2="%rdx"; }
 else		{ $arg1="%rdi"; $arg2="%rsi"; }

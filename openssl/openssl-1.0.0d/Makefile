@@ -11,11 +11,11 @@ SHLIB_VERSION_NUMBER=1.0.0
 SHLIB_VERSION_HISTORY=
 SHLIB_MAJOR=1
 SHLIB_MINOR=0.0
-SHLIB_EXT=.$(SHLIB_MAJOR).$(SHLIB_MINOR).dylib
-PLATFORM=darwin64-x86_64-cc
-OPTIONS=enable-shared no-gmp no-jpake no-krb5 no-md2 no-rc5 no-rfc3779 no-store no-zlib no-zlib-dynamic no-static-engine
-CONFIGURE_ARGS=darwin64-x86_64-cc shared
-SHLIB_TARGET=darwin-shared
+SHLIB_EXT=
+PLATFORM=VC-WIN64A
+OPTIONS= no-gmp no-jpake no-krb5 no-md2 no-rc5 no-rfc3779 no-shared no-store no-zlib no-zlib-dynamic
+CONFIGURE_ARGS=VC-WIN64A
+SHLIB_TARGET=
 
 # HERE indicates where this Makefile lives.  This can be used to indicate
 # where sub-Makefiles are expected to be.  Currently has very limited usage,
@@ -59,17 +59,17 @@ OPENSSLDIR=/usr/local/ssl
 # equal 4.
 # PKCS1_CHECK - pkcs1 tests.
 
-CC= cc
-CFLAG= -fPIC -fno-common -DOPENSSL_PIC -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -arch x86_64 -O3 -DL_ENDIAN -DMD32_REG_T=int -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DWHIRLPOOL_ASM
+CC= cl
+CFLAG= -DOPENSSL_THREADS  -DDSO_WIN32 -W3 -Gs0 -Gy -nologo -DOPENSSL_SYSNAME_WIN32 -DWIN32_LEAN_AND_MEAN -DL_ENDIAN -DUNICODE -D_UNICODE -D_CRT_SECURE_NO_DEPRECATE -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DWHIRLPOOL_ASM
 DEPFLAG= -DOPENSSL_NO_GMP -DOPENSSL_NO_JPAKE -DOPENSSL_NO_MD2 -DOPENSSL_NO_RC5 -DOPENSSL_NO_RFC3779 -DOPENSSL_NO_STORE
-PEX_LIBS= -Wl,-search_paths_first
+PEX_LIBS= 
 EX_LIBS= 
 EXE_EXT= 
 ARFLAGS= 
 AR= ar $(ARFLAGS) r
-RANLIB= /usr/bin/ranlib
+RANLIB= /cygdrive/c/bin/ranlib
 NM= nm
-PERL= /usr/bin/perl
+PERL= /cygdrive/c/bin/perl
 TAR= tar
 TARFLAGS= --no-recursion
 MAKEDEPPROG=makedepend
@@ -89,7 +89,7 @@ PROCESSOR=
 
 # CPUID module collects small commonly used assembler snippets
 CPUID_OBJ= x86_64cpuid.o
-BN_ASM= x86_64-gcc.o x86_64-mont.o
+BN_ASM= bn_asm.o x86_64-mont.o
 DES_ENC= des_enc.o fcrypt_b.o
 AES_ENC= aes-x86_64.o
 BF_ENC= bf_enc.o
@@ -101,7 +101,7 @@ SHA1_ASM_OBJ= sha1-x86_64.o sha256-x86_64.o sha512-x86_64.o
 RMD160_ASM_OBJ= 
 WP_ASM_OBJ= wp-x86_64.o
 CMLL_ENC= cmll-x86_64.o cmll_misc.o
-PERLASM_SCHEME= macosx
+PERLASM_SCHEME= auto
 
 # KRB5 stuff
 KRB5_INCLUDES=
@@ -148,9 +148,9 @@ WDIRS=  windows
 LIBS=   libcrypto.a libssl.a
 SHARED_CRYPTO=libcrypto$(SHLIB_EXT)
 SHARED_SSL=libssl$(SHLIB_EXT)
-SHARED_LIBS=$(SHARED_CRYPTO) $(SHARED_SSL)
-SHARED_LIBS_LINK_EXTS=.$(SHLIB_MAJOR).dylib .dylib
-SHARED_LDFLAGS=-arch x86_64 -dynamiclib
+SHARED_LIBS=
+SHARED_LIBS_LINK_EXTS=
+SHARED_LDFLAGS=
 
 GENERAL=        Makefile
 BASENAME=       openssl
