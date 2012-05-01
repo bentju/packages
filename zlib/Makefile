@@ -11,6 +11,7 @@ export BLD_OS BLD_ARCH
 all:
 	rm -f latest ; ln -s $(LATEST) latest
 ifeq ($(BLD_OS),WIN)
+	echo HERE
 	cd latest ; make -f ../Makefile.win
 else
 	cd latest ; ./configure
