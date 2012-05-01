@@ -25,7 +25,6 @@ all:
 	".\matrixssl\tls.c" \
 	".\matrixssl\cipherSuite.c" \
 	".\crypto\prng\prng.c" \
-	".\crypto\prng\prng.c" \
 	".\crypto\prng\yarrow.c" \
 	".\crypto\pubkey\pkcs.c" \
 	".\crypto\pubkey\pubkey.c" \
@@ -54,7 +53,6 @@ all:
 	".\Release\sslv3.obj" \
 	".\Release\tls.obj" \
 	".\Release\cipherSuite.obj" \
-	".\Release\prng.obj" \
 	".\Release\prng.obj" \
 	".\Release\yarrow.obj" \
 	".\Release\pkcs.obj" \
