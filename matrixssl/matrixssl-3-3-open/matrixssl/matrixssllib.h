@@ -654,7 +654,7 @@ extern void		matrixSslSetCertValidator(ssl_t *ssl,
 extern int32	matrixSslNewSession(ssl_t **ssl, sslKeys_t *keys,
 						sslSessionId_t *session, int32 flags);
 extern void		matrixSslSetSessionOption(ssl_t *ssl, int32 option,	void *arg);
-extern int32	matrixSslHandshakeIsComplete(ssl_t *ssl);
+PSPUBLIC int32	matrixSslHandshakeIsComplete(ssl_t *ssl);
 typedef int32	(*sslExtCb_t)(void *, unsigned short, unsigned short, void *);
 
 /* This used to be prefixed with 'matrix' */
