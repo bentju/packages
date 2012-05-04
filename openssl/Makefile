@@ -9,7 +9,8 @@ BLD_ARCH	:= $(shell ../getarch)
 ifeq ($(BLD_OS),WIN)
 PATH		:= $(PWD)/../bin:$(PATH)
 export 		PATH
-ifeq ($(PROCESSOR_ARCHITEW6432), AMD64)
+
+ifeq ($(BLD_ARCH), x64)
 CONFIG      := VC-WIN64A
 DOSCRIPT    := do_win64a
 else
@@ -21,6 +22,7 @@ endif
 all:
 	rm -f latest ; ln -s $(LATEST) latest
 ifeq ($(BLD_OS),WIN)
+	@echo BUILDING for $(BLD_ARCH)
 	cd latest ; \
 	rm -f libcrypto.lib libeay32.dll libssl.lib ssleay32.dll ; \
 	rm -f out32dll/*.exe out32dll/*.dll out32dll/*.lib tmp32dll/* ; \
