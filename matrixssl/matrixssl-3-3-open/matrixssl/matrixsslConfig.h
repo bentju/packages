@@ -233,13 +233,13 @@ extern "C" {
 /*
 	Show which SSL messages are created and parsed
 */
-#define USE_SSL_HANDSHAKE_MSG_TRACE
+/* #define USE_SSL_HANDSHAKE_MSG_TRACE */
 
 /******************************************************************************/
 /*
 	Informational trace that could help pinpoint problems with SSL connections
 */
-#define USE_SSL_INFORMATIONAL_TRACE
+/* #define USE_SSL_INFORMATIONAL_TRACE */
 
 /******************************************************************************/
 #ifdef __cplusplus

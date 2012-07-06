@@ -35,11 +35,16 @@ ifeq ($(BLD_OS),WIN)
 endif
 ifeq ($(BLD_OS),MACOSX)
 	MACOSX_DEPLOYMENT_TARGET=10.5 ; \
-	CFLAGS="-arch x86_64" ; \
+    if [ "$(BLD_ARCH)" = 'x64' ] ; then \
+        GCC_ARCH="x86_64" ; \
+    else \
+        GCC_ARCH="i686" ; \
+    fi ; \
+	CCFLAGS="-arch $${GCC_ARCH}" ; \
 	CCFLAGS="$CFLAGS" ; \
-	LDFLAGS="-Wl,-install_name,@rpath/libphp5.dylib -arch x86_64 -bind_at_load -lresolv" ; \
+	LDFLAGS="-Wl,-install_name,@rpath/libphp5.dylib -arch $${GCC_ARCH} -bind_at_load -lresolv" ; \
 	export LDFLAGS CFLAGS CCFLAGS MACOSX_DEPLOYMENT_TARGET ; \
-	cd latest ; ./configure --host=x86_64-apple-darwin10.0.0 $(OPTIONS) $(MORE_OPTIONS); \
+	cd latest ; ./configure --host=$${GCC_ARCH}-apple-darwin10.0.0 $(OPTIONS) $(MORE_OPTIONS); \
 	cp Makefile Makefile.new ; \
 	sed 's/EXTRA_LDFLAGS = -avoid-version -module/EXTRA_LDFLAGS = -avoid-version/' < Makefile.new > Makefile ; \
 	make clean ; make
