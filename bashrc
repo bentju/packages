@@ -9,12 +9,12 @@ else
     export PF="Program Files"
 fi
 
-if [ "$1" = '' ] ; then
+ARCH="$1"
+if [ "$ARCH" = '' ] ; then
     ARCH=`./getarch`
-elif [ "$1" = 'x64' ] ; then
+fi
+if [ "$ARCH" = 'x64' ] ; then
     ARCH=x86_64
-else
-    ARCH="$1"
 fi
 
 export CommonProgramFiles="${DRIVE}:\${PF}\Common Files"
