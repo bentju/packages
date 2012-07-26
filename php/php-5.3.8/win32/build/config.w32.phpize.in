@@ -15,6 +15,7 @@ if (!PHP_CL) {
 // 1400 is vs.net 2005
 // 1500 is vs.net 2008
 // 1600 is vs.net 2010
+// 1700 is vs.net 2012
 // Which version of the compiler do we have?
 VCVERS = probe_binary(PHP_CL).substr(0, 5).replace('.', '');
 STDOUT.WriteLine("  Detected compiler " + VC_VERSIONS[VCVERS]);
